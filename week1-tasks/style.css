@@ -67,7 +67,7 @@ nav{
     opacity: 0.8;
 }
 
-
+/* ----Pricing Table---- */
 
 .container{
   background: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.541));
@@ -92,14 +92,6 @@ nav{
 .container .box-container .box:nth-child(2){
   border:2px solid #000;
 }
-
-/* .container .box-container .box:nth-child(2) .btn{
-  background: crimson;
-}
-
-.container .box-container .box:nth-child(2) .btn:hover{
-  background: #444;
-} */
 
 .container .box-container .box h3{
   font-size: 25px;
@@ -127,11 +119,6 @@ nav{
   font-size: 17px;
   color:white;
 }
-
-/* .container .box-container .box .list p i{
-  padding-right: 5px;
-  color:red;
-} */
 
 .container .box-container .box .btn{
   margin:20px;
@@ -181,6 +168,8 @@ button{
     grid-template-columns: 1fr;
   }
 }
+
+/* -----FAQ------ */
 
 .faq{
     text-align: center;
@@ -270,7 +259,6 @@ a{
 }
 
 .faq{
-  /* background: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.541)), url(images/feature-1.png); */
   min-height: 100vh;
   text-align: center;
   background-position: center;
@@ -366,8 +354,6 @@ a{
 
 
 
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 body{
 	line-height: 1.5;
 	font-family: cursive;
@@ -401,20 +387,10 @@ ul{
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
-	/* margin-bottom: 35px; */
 	font-weight: 500;
 	position: relative;
 }
-/* .footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-} */
+
 .footer-col ul li:not(:last-child){
 	margin-bottom: 5px;
 }
@@ -424,14 +400,12 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	/* color: #bbbbbb; */
 	display: block;
 }
 .footer-col ul li a:hover{
 	cursor: pointer;
 }
 
-/*responsive*/
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -443,13 +417,3 @@ ul{
     display: block;
 }
 }
-
-
-
-
-
-
-
-
-
-
